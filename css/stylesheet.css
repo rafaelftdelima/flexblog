@@ -97,7 +97,7 @@ img {
     background-color: #fff;
     content: "";
     display: block;
-    height: 1px;
+    height: 2px;
     margin-top: 2px;
     position: absolute;
     transition: 0.3s;
@@ -106,4 +106,46 @@ img {
 
 .menu-nav a:hover::after {
     width: 100%;
+}
+
+/* .introduction and .about */
+
+.introduction {
+    font-size: 3em;
+    line-height: 1;
+    margin: 0px auto;
+    max-width: 960px;
+    padding: 60px 10px;
+}
+
+.about {
+    border-bottom: 2px solid #2c70ff;
+    border-top: 2px solid #2c70ff;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    max-width: 960px;
+    padding: 60px 0px;
+}
+
+.about-info {
+    flex: 2 1 300px;
+    margin: 0px 10px;
+}
+
+.about-info h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.about-info p {
+    color: #7c7c7c;
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+}
+
+.about-img {
+    flex: 1 1 160px;
+    margin: 0px 10px;
 }
